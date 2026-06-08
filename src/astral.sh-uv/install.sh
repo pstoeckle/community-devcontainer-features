@@ -11,6 +11,9 @@ readonly os="unknown-linux-musl"
 readonly binaryTargetFolder='/usr/local/bin'
 readonly name="${githubRepository##*/}"
 readonly AUTOCOMPLETION="${SHELLAUTOCOMPLETION:-"true"}"
+echo "test1"
+ls -al /tmp/
+id
 apt_get_update() {
     if [ "$(find /var/lib/apt/lists/* | wc -l)" = "0" ]; then
         echo "Running apt-get update..."
@@ -177,6 +180,6 @@ echo "Installing $name..."
 install "$@"
 echo "(*) Done!"
 
+echo "test2"
 ls -al /tmp/
 id
-mkdir -p /tmp/.uv-test
