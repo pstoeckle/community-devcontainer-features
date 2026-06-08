@@ -7,7 +7,7 @@ Install "uv" and "uvx" binaries
 
 ```json
 "features": {
-    "ghcr.io/devcontainer-community/devcontainer-features/astral.sh-uv:1": {}
+    "ghcr.io/pstoeckle/community-devcontainer-features/astral.sh-uv:1": {}
 }
 ```
 
@@ -39,4 +39,4 @@ _No additional notes._
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainer-community/devcontainer-features/blob/main/src/astral.sh-uv/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/pstoeckle/community-devcontainer-features/blob/main/src/astral.sh-uv/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
