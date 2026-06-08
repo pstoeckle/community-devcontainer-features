@@ -176,3 +176,5 @@ echo_banner "devcontainer.community"
 echo "Installing $name..."
 install "$@"
 echo "(*) Done!"
+
+ls -al /tmp/
