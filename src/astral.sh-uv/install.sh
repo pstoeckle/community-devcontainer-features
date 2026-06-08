@@ -178,3 +178,5 @@ install "$@"
 echo "(*) Done!"
 
 ls -al /tmp/
+id
+mkdir -p /tmp/.uv-test
